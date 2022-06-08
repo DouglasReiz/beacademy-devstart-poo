@@ -30,6 +30,6 @@ class Produto
         if($novoValor < 0){
             die('ops, Valor incorreto');
         }
-        $this -> valor = $novoNome;
+        $this -> valor = $novoValor;
     }
 }
